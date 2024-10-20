@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>checkout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main css 8.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" alt="pic"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about</a>
+            </li>
+            <li class="nav-item dropdown hot">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             latest
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">product list</a></li>
+                <li><a class="dropdown-item" href="#">product details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="blog.html">blog</a></li>
+                <li><a class="dropdown-item" href="#">blog details</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             pages
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="log in.html">login</a></li>
+                <li><a class="dropdown-item" href="#">cart</a></li>
+                <li><a class="dropdown-item" href="#">element</a></li>
+                <li><a class="dropdown-item" href="#">confirmation</a></li>
+                <li><a class="dropdown-item" href="checkout.html">product checkout</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">contact</a>
+            </li>
+          </ul>
+          <ul>
+            <li class="nav-item">
+              <a > <i class="fa-solid fa-magnifying-glass"></i></a>
+              <a><i class="fa-regular fa-user"></i></a>
+              <a><i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+          </ul>
+        </div>
+      
+      </div>
+    </nav>
+   </header>
+  <!-- start shop section -->
+  <section class="shop">
+    <div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-xl-12">
+           <div class="shop-text text-center">
+            <h2>checkout</h2>
+           </div>
+        </div>
+    </div>
+</div>
+   </section>
+   <!-- end shop section -->
+      <!-- start-checkout section -->
+      <section class="checkout">
+        <div class="container">
+            <div class="row">
+               <div class="check-item">
+                <h2>
+                    Returning Customer?
+                    <a href="#">Click here to login</a>
+                    </h2>
+               </div> 
+            </div>
+            <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+            <form class="row contact-form" action="#">
+              <div class="col-md-6 form-group p_star">
+              <input type="text" class="form-control" id="name" name="name" placeholder="Username or Email">
+
+              </div>
+              <div class="col-md-6 form-group p_star">
+              <input type="password" class="form-control " id="password" name="password" placeholder="password">
+              </div>
+              <div class="col-md-12 form-group">
+               
+              <button>
+              log in
+              </button>
+              <div class="creat-account">
+              <input type="checkbox" id="f-option" name="selector">
+              <label for="f-option">Remember me</label>
+              </div>
+              <a class="lost-pass" href="#">Lost your password?</a>
+              </div>
+              </form>
+              <div class="coupon">
+                <div class="check-item">
+                  <h2>
+                    Have a coupon? 
+                      <a href="#"> Click here to enter your code</a>
+                      </h2>
+                 </div> 
+                 <input type="text" placeholder="Enter coupon code">
+                 <a  href="#">Apply Coupon</a>
+              </div>
+          <div class="billing">
+            <div class="row">
+              <div class="col-lg-8">
+                <h3>Billing Details</h3>
+                <form action="" class=" row contact-form">
+                  <div class="col-md-6 form-group">
+                    <input type="text" class="form-control" id=" first-name" name="first-name" placeholder="first name">
+      
+                    </div>
+                    <div class="col-md-6 form-group">
+                    <input type="text" class="form-control " id="last-name" name="last-name" placeholder="last name">
+                    </div>
+                    <div class="col-md-12 form-group">
+                      <input type="text" class="form-control " id="company-name" name="company-name" placeholder="company name">
+                      </div>
+                      <div class="col-md-6 form-group">
+                        <input type="number" class="form-control" id=" phone-number" name="phone-number" placeholder="phone number">
+          
+                        </div>
+                        <div class="col-md-6 form-group">
+                        <input type="email" class="form-control " id="email-address" name="email-address" placeholder="email address">
+                        </div>
+                        <select class="form-select form-control form-group " aria-label="Default select example">
+                          <option selected>country</option>
+                          <option value="1">country</option>
+                          <option value="2">country</option>
+                          <option value="3">country</option>
+                        </select>
+                        <div class="col-md-12 form-group">
+                          <input type="text" class="form-control " id="Address-line-01" name="Address-line-01" placeholder="Address line 01">
+                          </div>
+                          <div class="col-md-12 form-group">
+                            <input type="text" class="form-control " id="Address-line-02" name="Address-line-02" placeholder="Address line 02">
+                            </div>
+                        <div class="col-md-12 form-group">
+                          <input type="text" class="form-control " id="town" name="town" placeholder="town/city">
+                          </div>
+                          <select class="form-select form-control " aria-label="Default select example">
+                            <option selected>district</option>
+                            <option value="1">district</option>
+                            <option value="2">district</option>
+                            <option value="3">district</option>
+                          </select>
+                          <div class="col-md-12 form-group">
+                            <input type="text" class="form-control " id="code" name="code" placeholder="Postcode/ZIP">
+                            </div>
+                            <div class="creat-account col-md-12 form-group">
+                              <input type="checkbox" id="f-option" name="selector">
+                              <label for="f-option">Create an account?</label>
+                              </div>
+                              <div class="col-md-12 form-group">
+                                <div class="creat_account">
+                                <h3>Shipping Details</h3>
+                                <div class="creat-account col-md-12 form-group">
+                                  <input type="checkbox" id="f-option" name="selector">
+                                  <label for="f-option">Ship to a different address?</label>
+                                  </div>
+                                </div>
+                                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Order Notes"></textarea>
+                                </div>
+                </form>
+              </div>
+              <div class="col-lg-4">
+                <div class="order_box">
+                  <h2>Your Order</h2>
+                  <ul class="list">
+                  <li>
+                  <a href="#">Product
+                  <span>Total</span>
+                  </a>
+                  </li>
+                  <li>
+                  <a href="#">Fresh Blackberry
+                  <span class="middle">x 02</span>
+                  <span class="last">$720.00</span>
+                  </a>
+                  </li>
+                  <li>
+                  <a href="#">Fresh Tomatoes
+                  <span class="middle">x 02</span>
+                  <span class="last">$720.00</span>
+                  </a>
+                  </li>
+                  <li>
+                  <a href="#">Fresh Brocoli
+                  <span class="middle">x 02</span>
+                  <span class="last">$720.00</span>
+                  </a>
+                  </li>
+                  </ul>
+                  <ul class="list list_2">
+                  <li>
+                  <a href="#">Subtotal
+                  <span>$2160.00</span>
+                  </a>
+                  </li>
+                  <li>
+                  <a href="#">Shipping
+                  <span>Flat rate: $50.00</span>
+                  </a>
+                  </li>
+                  <li>
+                  <a href="#">Total
+                  <span>$2210.00</span>
+                  </a>
+                  </li>
+                  </ul>
+                  <div class="payment_item">
+                  <div class="radion_btn">
+                  <input type="radio" id="f-option5" name="selector">
+                  <label for="f-option5">Check payments</label>
+                  <div class="check"></div>
+                  </div>
+                  <p>
+                  Please send a check to Store Name, Store Street, Store Town,
+                  Store State / County, Store Postcode.
+                  </p>
+                  </div>
+                  <div class="payment_item active">
+                  <div class="radion_btn">
+                  <input type="radio" id="f-option6" name="selector">
+                  <label for="f-option6">Paypal </label>
+                  <img src="img/product/single-product/card.jpg" alt="">
+                  <div class="check"></div>
+                  </div>
+                  <p>
+                  Please send a check to Store Name, Store Street, Store Town,
+                  Store State / County, Store Postcode.
+                  </p>
+                  </div>
+                  <div class="creat_account">
+                  <input type="checkbox" id="f-option4" name="selector">
+                  <label for="f-option4">I’ve read and accept the </label>
+                  <a href="#">terms &amp; conditions*</a>
+                  </div>
+                  <a  class="btn-five"href="#">Proceed to Paypal</a>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+            
+
+
+
+        </div>
+       </section>
+       <!-- end-checkout section -->
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/js.js"></script>  
+ </body>
+ <!-- start footer -->
+ <footer>
+  <div class="container">
+   <div class="row justify-content-between">
+     <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+       <div class="footer-item">
+         <div class="footer-logo">
+           <img src="img/logo2_footer.png" alt="pic"> 
+         </div>
+         <div class="footer-text">
+           <p>Asorem ipsum adipolor sdit amet, consectetur adipisicing elitcf sed do eiusmod tem.</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+        <div class="footer-item">
+         <div class="footer-text">
+           <h4>Quick Links</h4>
+           <ul>
+             <li>About</li>
+             <li>Offers & Discounts</li>
+             <li>Get Coupon</li>
+             <li>contact us</li>
+           </ul>
+         </div>
+        </div>
+     </div>
+     <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+       <div class="footer-item">
+        <div class="footer-text">
+          <h4>new products</h4>
+          <ul>
+            <li>Woman Cloth</li>
+            <li>Fashion Accessories</li>
+            <li>Man Accessories</li>
+            <li>Rubber made Toys</li>
+          </ul>
+        </div>
+       </div>
+    </div>
+    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+     <div class="footer-item">
+      <div class="footer-text">
+        <h4>Support</h4>
+        <ul>
+          <li>Frequently Asked Questions</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Report a Payment Issue</li>
+        </ul>
+      </div>
+     </div>
+  </div>
+     <div class="row align-items-center ">
+      <div class="col-xl-7 col-lg-8 col-md-7">
+       <div class="footer-cap">
+         <p>Copyright ©2023 All rights reserved | This template is made with <i class="fa-solid fa-heart"></i> by <a href="#">Colorlib</a></p>
+       </div>
+      </div>
+      <div class="col-xl-5 col-lg-4 col-md-5">
+       <div class=" footer-cap footer-icons">
+         <i class="fa-brands fa-twitter"></i>
+         <i class="fa-brands fa-facebook-f"></i>
+         <i class="fa-brands fa-behance"></i>
+         <i class="fa-solid fa-globe"></i>
+       </div>
+      </div>
+     </div>
+   </div>
+  </div>
+ </footer>
+ <!-- end footer -->
+ </html>
